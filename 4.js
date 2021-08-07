@@ -30,7 +30,7 @@ function arrayRemove(arr, value) {
 };
 
 function consumedPower(socket){
-    consumed = 0;
+    var consumed = 0;
     socket.forEach((i) => {
         if(i.plugged == 'yes'){
             consumed = consumed + i.power

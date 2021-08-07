@@ -23,7 +23,7 @@ class Socket{
                 consumed = consumed + i.power
             }
         });
-        return consumed;
+        return `Devices pluged in this socket consume ${consumed} Watts.`;
     }
 
     deviceRemove(value) {
